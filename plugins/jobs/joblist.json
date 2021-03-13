@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "joblist",
+  "info": {
+    "name": "joblist",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Job_Title": {
+      "type": "string"
+    },
+    "job_guidelines": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
