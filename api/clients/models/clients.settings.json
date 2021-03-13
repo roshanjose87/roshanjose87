@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "clients"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "client_name": {
+      "type": "string"
+    },
+    "job": {
+      "model": "jobs"
+    }
+  }
+}

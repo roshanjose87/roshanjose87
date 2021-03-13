@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "jobs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Job_Title": {
+      "type": "string"
+    },
+    "job_guidelines": {
+      "type": "richtext"
+    },
+    "assigned_clent": {
+      "type": "string"
+    },
+    "assigned_consultant": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
